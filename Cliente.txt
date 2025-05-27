@@ -1,0 +1,15 @@
+-- Crear la base de datos
+CREATE DATABASE IF NOT EXISTS Cliente;
+USE Cliente;
+
+-- Crear la tabla Cliente
+CREATE TABLE Cliente (
+    codiClie INT AUTO_INCREMENT PRIMARY KEY,
+    ndniClie VARCHAR(8),
+    appaClie VARCHAR(50),
+    apmaClie VARCHAR(50),
+    nombClie VARCHAR(50),
+    fechNaciClie DATE,
+    logiClie VARCHAR(100),
+    passClie VARCHAR(500)
+);
